@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta lang="es" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TutorAR</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Patrick+Hand|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="assets/images/logo.jpg" alt="TutorAR logo" />
+      <hgroup id="mainTitle">
+        <span>
+          <h1><strong>tutorAR</strong></h1>
+          <h3 class="titles">Programas Extra Escolares</h3>
+       </span>
+       <h4 id="quote">"Beneficios más allá del salón de clases"</h4>
+      </hgroup>
+    </header>
+    <nav>
+      <ul class="menu-hover-lines">
+        <div class="row">
+          <li class="col-lg-2 ancla" data-ancla="mainTitle"><a href="#">INICIO</a></li>
+          <li class="col-lg-2 ancla" data-ancla="nosotros"><a href="#">NOSOTROS</a></li>
+          <li class="col-lg-3 ancla" data-ancla="nuestrosProgramas"><a href="#">NUESTROS PROGRAMAS</a></li>
+          <li class="col-lg-3 ancla" data-ancla="destinatarios"><a href="#">DESTINATARIOS</a></li>
+          <li class="col-lg-2 ancla" data-ancla="contacto"><a href="#">CONTACTO</a></li>
+        </div>
+      </ul>
+    </nav>
+    <section>
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/images/carr1.png" alt="Estamos para ayudarte" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="assets/images/carr2.jpg" alt="Estamos para ayudarte" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="assets/images/carr3.png" alt="Estamos para ayudarte" style="width:100%;">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div id="articles">
+      <article id="nosotros" class="container artContainer" >
+        <h2 class="articleContent articleText">¿QUIENES SOMOS?</h2>
+        <p class="articleContent articleText">
+          Somos un grupo de estudiantes universitarios emprendedores, cuyo proyecto surgió al escuchar las necesidades de la comunidad. Diferentes actores sociales proponían generar un espacio que atienda la demanda creciente sobre aspectos vinculados a la educación de esta población. De esta manera, decidimos crear un espacio para el logro de dicho objetivo.
+        </p>
+        <p class="articleContent articleText">
+          Tenemos dos modalidades, una a distancia y otra presencial, ambas cubren las siguientes materias:
+        </p>
+        <div class="row grid">
+          <div class="col-sm-4">
+            <figure>
+              <img src="assets/images/matematica.png" alt="matematica" >
+              <figcaption>MATEMÁTICA</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure>
+              <img src="assets/images/lengua.png" alt="lengua">
+              <figcaption>LENGUA</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure>
+              <img src="assets/images/ingles.png" alt="ingles">
+              <figcaption>INGLÉS</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure>
+              <img src="assets/images/historia.png" alt="historia">
+              <figcaption>HISTORIA</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure>
+              <img src="assets/images/fisica.png" alt="fisica">
+              <figcaption>FÍSICA</figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure>
+              <img src="assets/images/quimica.png" alt="quimica">
+              <figcaption>QUÍMICA</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+      <article id="nuestrosProgramas" class="container artContainer">
+        <h2 class="articleContent articleText">NUESTROS PROGRAMAS</h2>
+        <p class="articleContent articleText">
+          Las actividades que realizamos durante todo el año con las clases particulares son:
+        </p>
+        <ul class="articleContent articleText articleItems" style="list-style: square;">
+          <li>Preparación para exámenes urgentes.</li>
+          <li><strong>Clases de apoyo:</strong> se evaluarán las necesidades del alumno y en función de ellas planificará sus clases particulares considerando los temas críticos de la forma más rápida y efectiva posible</li>
+          <li><strong>Preparación de materias regulares, previas, libres o equivalencias:</strong> se preparará al alumno con las clases particulares de acuerdo con el programa especifico de examen que presente éste o el programa oficial si así lo requiriera.</li>
+          <li><strong>Exámenes de diciembre-febrero-marzo-julio-agosto:</strong> Se preparará a los alumnos con nuestro equipo de profesores particulares de acuerdo con los temas específicos requeridos por cada profesor y/o programa de estudios de cada institución educativa.</li>
+        </ul>
+        <p class="articleContent articleText">
+          A raíz de nuestra visón social otorgamos descuentos a beneficiari@s de la Asignación Universal por Hijo y Progresar, asi como también a aquellos que estén finalizando sus estudios secundarios mediante el Plan de Finalización de Estudios Primarios y Secundarios (FINES).
+          Para cualquier consulta relacionada podés contactarnos aquí o por nuestras otras vías de contacto.
+        </p>
+      </article>
+      <article id="destinatarios" class="container artContainer">
+        <h2 class="articleContent articleText">DESTINATARIOS</h2>
+        <p class="articleContent articleText">
+          La actividad de apoyo escolar pretende reforzar los contenidos aprendidos y dar respuesta a las dificultades que presenten alumn@s en su aprendizaje, tanto a nivel técnico como de hábitos, mediante el apoyo prestado por nuestros tutores fuera del horario escolar, con el fin mejorar su rendimiento y a prevenir situaciones de desmotivación, absentismo y fracaso escolar.
+        </p>
+        <p class="articleContent articleText">
+          Los destinatarios serán alumnado de nivel secundario con desfase curricular y/o dificultades en el aprendizaje, tanto aquellos que cursan estos estudios por primera vez como aquellos que han retomado el secundario a fin de culminar sus estudios pendientes.
+        </p>
+      </article>
+      <article id="contacto" class="container artContainer content-fluid">
+        <div id="contactInfo">
+          <h2 class="articleContent articleText">CONTACTANOS</h2>
+          <p class="articleContent articleText">
+            A través de nuestro email y teléfono o completando la planilla que se encuentra debajo.
+          </p>
+          <ul class="articleContent articleText articleItems" style="list-style: square;">
+            <li><strong>Teléfono: </strong>4254-1750</li>
+            <li><strong>Email:</strong> tutorar@gmail.com</li>
+          </ul>
+        </div>
+        <figure id="map" >
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.182874528498!2d-58.26865420617529!3d-34.77617125937801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3292e18de7fa1%3A0x585fda7b6a159b5d!2sAv.+Calchaqu%C3%AD%2C+Bosques%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1501612201427" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <figcaption>
+            Donde podés encontrarnos.
+          </figcaption>
+        </figure>
+        <div id="form" >
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLTh5Yz2Hok28cLWYiGSnUYgoW9VS3RiEX2njmx3gaS0rinQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+      </article>
+    </div>
+    <footer>
+      Victoria Caparelli 2016.
+    </footer>
+  </body>
+  <script type = "text/javascript">
+    $('.ancla').on('click', function(e){
+      e.preventDefault();
+      var strAncla = '#' + $(this).data('ancla');
+      $('html,body').stop(true,true).animate({scrollTop: $(strAncla).offset().top}, 2000);
+    });
+  </script>
+</html>
